@@ -24,6 +24,9 @@ jobs:
 
       - name: Install Dependencies
         run: composer install
+        
+      - name: Update Dependencies
+        run: composer update
 
       - name: Run PHPUnit Tests
         run: vendor/bin/phpunit
