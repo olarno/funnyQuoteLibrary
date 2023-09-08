@@ -1,5 +1,5 @@
 {
-    "name": "olarno/FunnyQuoteLib",
+    "name": "ol.arno/funny-quote-lib",
     "description": "A library that gives you a random fun quote.",
     "type": "library",
     "autoload": {
