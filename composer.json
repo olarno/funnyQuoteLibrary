@@ -2,9 +2,18 @@
     "name": "ol.arno/funny-quote-lib",
     "description": "A library that gives you a random fun quote.",
     "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oltra Arnaud",
+            "email": "arnaudoltra@hotmail.fr",
+            "role": "Developer",
+            "homepage": "https://www.linkedin.com/in/arnaud-oltra/"
+        }
+    ],
     "autoload": {
         "psr-4": {
-            "Votre\\Namespace\\": "src/"
+            "funnyquotelib": "src/"
         }
     },
     "require-dev": {
