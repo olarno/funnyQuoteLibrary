@@ -13,7 +13,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "funny-quote-lib": "src/"
+            "FunnyQuoteLib\\": "src/",
+            "Vendor\\Namespace\\": ""
         }
     },
     "require-dev": {
