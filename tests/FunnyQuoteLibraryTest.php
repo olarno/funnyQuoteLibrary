@@ -2,6 +2,7 @@
 
 require_once 'src/FunnyQuoteLibrary.php';
 use PHPUnit\Framework\TestCase;
+use FunnyQuoteLib\FunnyQuoteLibrary;
 
 
 class FunnyQuoteLibraryTest extends TestCase
