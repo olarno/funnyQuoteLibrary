@@ -1,5 +1,7 @@
 <?php
 
+namespace FunnyQuoteLib;
+
 class FunnyQuoteLibrary
 {
     private $configFile;
