@@ -1,0 +1,25 @@
+name: Send Tweets on New Release
+
+on:
+  release:
+    types:
+      - published
+
+jobs:
+  send_tweets:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+
+    - name: Install dependencies
+      run: pip install tweepy
+
+    - name: Run automation script
+      run: python .github/automation/send_tweets.py

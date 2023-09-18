@@ -1,0 +1,14 @@
+{
+    "tweets-fr": [
+        "🚀 Nouvelle version de FunnyQuote v0.0.5 disponible sur Packagist !",
+        "✨ Découvrez les dernières fonctionnalités et améliorations. Mettez à jour dès maintenant en exécutant : `composer update ol.arno/funny-quote-lib`.",
+        "#PHP #Packagist #Library #Packagist #Development"
+    ],
+
+    "tweets-en": [
+        "🚀 New version of FunnyQuote v0.0.5 is now available on Packagist!",
+        "✨ Discover the latest features and improvements. Update now by running: `composer update ol.arno/funny-quote-lib`.",
+        "#PHP #Packagist #Update #Development"
+    ]
+}
+
