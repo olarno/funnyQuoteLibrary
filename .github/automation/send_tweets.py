@@ -18,10 +18,10 @@ def get_tweet(config, lang):
     return None
 
 def send_tweets(tweets):
-    consumer_key = os.environ['9sUgZqWy1dy1ACPLxrnsFBPXf']
-    consumer_secret = os.environ['tLp6wcEXN5byom5cbeZn9SHheADkHtfeL8ngjokT2le58sBEIX']
-    access_token = os.environ['1192367394309713921-OTBExYZMZ9FWHaS608EZVrL2tsrVvI']
-    access_token_secret = os.environ['F2Im9LlKRG5QWZ8ZKGEBUjHn5JjeVa8lm2Al3VjxhG2OW']
+    consumer_key = os.environ['TWITTER_API_KEY']
+    consumer_secret = os.environ['TWITTER_API_SECRET']
+    access_token = os.environ['TWITTER_ACCESS_TOKEN']
+    access_token_secret = os.environ['TWITTER_ACCESS_SECRET']
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
