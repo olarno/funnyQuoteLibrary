@@ -22,4 +22,10 @@ jobs:
       run: pip install tweepy
 
     - name: Run automation script
-      run: python .github/automation/send_tweets.py
+      env:
+        TWITTER_API_KEY: ${{ TWITTER_API_KEY }}
+        TWITTER_API_SECRET: ${{ TWITTER_API_SECRET }}
+        TWITTER_ACCESS_TOKEN: ${{ TWITTER_ACCESS_TOKEN }}
+        TWITTER_ACCESS_SECRET: ${{ TWITTER_ACCESS_SECRET }}
+      run: |
+        python .github/automation/send_tweets.py
