@@ -1,14 +1,4 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -25,12 +15,10 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/olarno/funnyQuoteLibrary">
     <img src="images/logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
@@ -39,18 +27,16 @@
   <p align="center">
     An awesome README template to discover this project!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/olarno/funnyQuoteLibrary"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/olarno/funnyQuoteLibrary">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/olarno/funnyQuoteLibrary/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/olarno/funnyQuoteLibrary/issues">Request Feature</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -74,11 +60,8 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -90,8 +73,6 @@ Picture a world where your users are greeted with funny and inspiring quotes eve
 Transform the mundane into the extraordinary by infusing elements of surprise into your pages. FunnyQuoteLi offers a straightforward and effective solution to brighten up your interfaces, creating a light-hearted and entertaining atmosphere. Make each user interaction a memorable experience with our library, adding a dash of humor to your code. Get ready to astonish your users and make your project as enjoyable as it is functional with FunnyQuoteLib!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
@@ -126,8 +107,6 @@ Before you begin, ensure that you have the following prerequisites installed:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
@@ -148,10 +127,10 @@ Before you begin, ensure that you have the following prerequisites installed:
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] **Add Changelog**
+- [x] **Add Changelog**
   - Keep track of version changes, bug fixes, and new features in the Changelog to enhance transparency and user understanding.
 
-- [ ] **Add Back to Top Links**
+- [x] **Improve Readme**
   - Implement convenient "Back to Top" links for a smoother and more user-friendly navigation experience.
 
 - [ ] **Multi-language Support**
@@ -175,13 +154,9 @@ Before you begin, ensure that you have the following prerequisites installed:
 - [ ] **User Feedback Mechanism**
   - Establish a feedback mechanism, such as a survey or user forum, to gather insights from users. This can inform future development and ensure that your library meets the evolving needs of its users.
 
-
-
 See the [open issues](https://github.com/olarno/funnyQuoteLibrary/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -205,10 +180,7 @@ Thank you for considering contributing to FunnyQuoteLi! We welcome contributions
 4. **Documentation Improvements:**
    - Help us improve our documentation by submitting pull requests for clarifications, corrections, or additional information.
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- LICENSE -->
 ## License
@@ -216,8 +188,6 @@ Thank you for considering contributing to FunnyQuoteLi! We welcome contributions
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
@@ -227,7 +197,6 @@ Your Name - [@your_twitter](https://twitter.com/arno_ol) - arnaudoltra@hotmail.f
 Project Link: [https://github.com/olarno/funnyQuoteLibrary](https://github.com/olarno/funnyQuoteLibrary)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
