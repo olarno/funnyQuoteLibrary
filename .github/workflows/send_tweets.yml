@@ -14,7 +14,7 @@ jobs:
       - uses: dart-actions/tweet@v1.0.0
         with:
           text: "🚀 New version released: ${{ github.event.inputs.version }}! Check it out on GitHub. #Release #OpenSource"
-          consumer-key: ${{ secrets.TWITTER_CONSUMER_KEY }}
-          consumer-secret: ${{ secrets.TWITTER_CONSUMER_SECRET }}
+          consumer-key: ${{ secrets.TWITTER_API_KEY }}
+          consumer-secret: ${{ secrets.TWITTER_API_SECRET }}
           access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
-          access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+          access-token-secret: ${{ secrets.TWITTER_ACCESS_SECRET }}
