@@ -1,31 +1,35 @@
-name: Send Tweets on New Release
+name: Tweet on Release
 
 on:
-  release:
-    types:
-      - published
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Specify the new version number'
+        required: true
 
 jobs:
-  send_tweets:
+  tweet:
     runs-on: ubuntu-latest
-    
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
 
+    steps:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: 3.8
+        python-version: 3.x
+
+    - name: Checkout code
+      uses: actions/checkout@v2
 
     - name: Install dependencies
-      run: pip install tweepy
-
-    - name: Run automation script
-      env:
-        TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
-        TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
-        TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
-        TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
       run: |
-        python .github/automation/send_tweets.py
+        python -m pip install --upgrade pip
+        pip install tweepy
+
+    - name: Send Tweet
+      run: |
+        python .github/automation/send_tweet.py ${{ github.event.inputs.version }}
+      env:
+        TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
+        TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
+        TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+        TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
