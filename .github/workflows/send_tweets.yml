@@ -27,7 +27,7 @@ jobs:
 
     - name: Send Tweet
       run: |
-        python .github/automation/send_tweet.py ${{ github.event.inputs.version }}
+        python .github/automation/send_tweets.py ${{ github.event.inputs.version }}
       env:
         TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
         TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
