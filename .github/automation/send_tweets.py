@@ -1,5 +1,5 @@
 import json
-import tweepy
+import requests
 import os
 
 def read_tweet_config():
@@ -22,14 +22,14 @@ def send_tweets(tweets):
     consumer_secret = os.environ['TWITTER_API_SECRET']
     access_token = os.environ['TWITTER_ACCESS_TOKEN']
     access_token_secret = os.environ['TWITTER_ACCESS_SECRET']
+    endpoint_url = "https://api.twitter.com/2/tweets"
 
-    auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-    auth.set_access_token(access_token, access_token_secret)
-    api = tweepy.API(auth)
+    headers = {
+    'Content-Type': 'application/json'
+    }
 
-    for tweet in tweets:
-        api.update_status(tweet)
-        print("Tweet envoyé:", tweet)
+    response = requests.request("POST", endpoint_url, headers=headers, data=tweets)
+    print(response.text)
 
 def main():
     config_data = read_tweet_config()
@@ -49,3 +49,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+payload = json.dumps({
+  "text": "Hello World!"
+})
+
+
