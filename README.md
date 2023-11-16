@@ -194,6 +194,8 @@ We appreciate your contribution in making FunnyQuoteLib a source of laughter and
 
 We appreciate and welcome contributions from the community to make FunnyQuoteLib even more entertaining and enjoyable!
 
+Here are our contributors: [Contributors 😊](https://github.com/olarno/funnyQuoteLibrary/graphs/contributors)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -207,7 +209,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/arno_ol) - arnaudoltra@hotmail.fr
+Arnaud Oltra - [@arno_ol](https://twitter.com/arno_ol) - arnaudoltra@hotmail.fr
 
 Project Link: [https://github.com/olarno/funnyQuoteLibrary](https://github.com/olarno/funnyQuoteLibrary)
 
