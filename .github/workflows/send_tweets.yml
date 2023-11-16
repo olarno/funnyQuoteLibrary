@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: dart-actions/tweet@v1.0.0
         with:
-          text: "🚀 New version released: ${{ github.event.inputs.version }}! Check it out on GitHub. #Release #OpenSource"
+          text: "🚀 New version released: ${{ github.event.inputs.version }}! Check it out on GitHub. https://github.com/olarno/funnyQuoteLibrary. Thanks to our Contributors ❤️"
           consumer-key: ${{ secrets.TWITTER_API_KEY }}
           consumer-secret: ${{ secrets.TWITTER_API_SECRET }}
           access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
